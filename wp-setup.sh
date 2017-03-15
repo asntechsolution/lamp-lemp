@@ -15,9 +15,9 @@ read -e run
 if [ "$run" == n ] ; then
 exit
 else
-echo "============================================"
-echo "A robot is now installing WordPress for you."
-echo "============================================"
+echo "===================================================="
+echo "AsnTechSolution is now installing WordPress for you."
+echo "===================================================="
 curl -O https://wordpress.org/latest.tar.gz
 tar -zxvf latest.tar.gz
 cd wordpress
@@ -46,7 +46,7 @@ echo "Cleaning..."
 rm latest.tar.gz
 
 rm wp-setup.sh
-echo "========================="
-echo "Installation is complete."
-echo "========================="
+echo "================================================="
+echo "Congrats! Your Wordpress Installation is complete."
+echo "================================================="
 fi
